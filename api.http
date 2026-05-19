@@ -1,0 +1,15 @@
+POST http://localhost:5000/addVehicle
+Content-Type: application/json
+
+{
+    "ownerName": "Neha",
+    "vehicleNumber": "TS09AB1234",
+    "vehicleType": "Car",
+    "brand": "Hyundai",
+    "model": "i20",
+    "registrationDate": "2026-05-15"
+}
+
+###
+
+GET http://localhost:5000/getVehicles
